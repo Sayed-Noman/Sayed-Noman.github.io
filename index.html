@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Resume - Sayed Noman</title>
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader-outer" id="preloader">
+      <div class="preloader">
+        <div class="lines">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+
+        <div class="loading-text">Hi! I'm Noman</div>
+      </div>
+    </div>
+
+    <!-- class="scale-cv" -->
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">Sayed Noman</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>
+                Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>
+                Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>
+                Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#project" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                project
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>
+                Certificates
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>
+                References
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- GENERATE PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- HOME -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="./assets/img/profile.png"
+                  alt=""
+                  class="home__img"
+                />
+                <h1 class="home__title" data-text="Sayed Abu Noman Siddik"><b>Sayed Abu Noman Siddik</b></h1>
+                <h3 class="home__profession">BSC in Computer Science & Engineering</h3>
+
+                <!-- Button download CV -->
+                <div>
+                  <a
+                    download=""
+                    href="./assets/pdf/sayed-noman-cv.pdf"
+                    class="home__button"
+                  >
+                    DOWNLOAD
+                  </a>
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-calendar home__icon"></i>
+                  August 2, 1999
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  sayed.siddik@northsouth.edu
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>
+                  Baunia, Uttara, Dhaka-1230
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>
+                  + 880 1609793015
+                </span>
+              </div>
+            </div>
+
+            <!-- THEME CHANGE BUTTON -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- BUTTON DOWNLOAD PDF -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!-- SOCIAL -->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://github.com/Sayed-Noman"
+                target="blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i>
+                github.com/Sayed-Noman
+              </a>
+              <a
+                href="https://www.facebook.com/sayed.noman.52012/"
+                target="blank"
+                class="social__link"
+              >
+                <i class="bx bxl-facebook social__icon"></i>
+                facebook.com/sayed.noman.52012/
+              </a>
+              <a
+                href="https://www.instagram.com/unconscious_noman/"
+                target="blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i>
+                instagram.com/unconscious_noman/
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sayed-noman-603377204/"
+                target="blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin social__icon"></i>
+                linkedin.com/in/sayed-noman-603377204/
+              </a>
+            </div>
+          </section>
+
+          <!-- PROFILE -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              I’m a fourth-year North South University student, and aspiring software engineer. I’m looking for an opportunity where I can put my skills and experience to good use.
+            </p>
+          </section>
+
+          <!-- EDUCATION -->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title"> Computer Science and Engineering</h3>
+                  <span class="education__studies">North South University</span>
+                  <span class="education__studies">BSC in Computer Science and Engineering</span>
+                  <span class="education__studies">CGPA: 3.81/4.00</span>  
+                  <span class="education__year">2018 - Now</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Higher Secondary School Certificate</h3>
+                  <span class="education__studies">Uttara High School and College</span>
+                  <span class="education__studies">Higher Secondary School Certificate (2017)</span>
+                  <span class="education__studies">GPA: 4.67/5.00</span>
+                  <span class="education__year">2015 - 2018</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                    <span class="education__rounder"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Secondary School Certificate</h3>
+                  <span class="education__studies">Baunia Abdul Jalil High School</span>
+                  <span class="education__studies">Secondary School Certificate (2015)</span>
+                  <span class="education__studies">GPA: 5.00/5.00</span>
+                  <span class="education__year">2005 - 2015</span>
+               </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Html
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Css
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Sass
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  JavaScript
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Django
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Flutter
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!-- PROJECT -->
+          <section class="project section" id="project">
+            <h2 class="section-title">Project</h2>
+
+            <div class="project__container bd-grid">
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Monokothon/Psyche Conversa</h3>
+                  <span class="project__company"
+                    >CSE499 | <b>Senior Design</b></span
+                  >
+                  <p class="project__description">
+                    <b>Description:</b> A student-friendly deep learning based mobile application.
+                     A keylogger module collect social media data, browsing history, daily routine of a student.
+                     One chat-bot instance detect mental health condition, and apply counselling accordingly.
+                  </p>
+                  <div class="project-review">
+                    <a
+                      class="project__link"
+                      href="https://github.com/Sayed-Noman/CSE499-Mental-Health-Chatbot"
+                      onmouseover="hoverIn(getImage1)"
+                      onmouseout="hoverOut(getImage1)"
+                      ><b>Source: github.com/Sayed-Noman/CSE499-Mental-Health-Chatbot</b></a
+                    >
+                    <div class="project-img">
+                      <img
+                        class="project-img__img"
+                        src="./assets/img/project-1.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <span class="project__line"></span>
+                </div>
+
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Tutor-Hub</h3>
+                  <span class="project__company"
+                    >CSE327 | <b>Software Engineering</b></span
+                  >
+                  <p class="project__description">
+                    <b>Description:</b> A web-based tutor finder app to find intended tuition/tutor.
+                     Provides the capability of study materials sharing similar to Google Classroom.
+                     Integrated Google Map to locate tuition/tutor on area-based searching.
+                  </p>
+                  <div class="project-review">
+                    <a
+                      class="project__link"
+                      href="https://github.com/Sayed-Noman/NSU-CSE331-Password-Based-Door-Lock-Using-8051-Microcontroller"
+                      onmouseover="hoverIn(getImage2)"
+                      onmouseout="hoverOut(getImage2)"
+                      ><b>Source: github.com/Sayed-Noman/NSU-CSE331-Password-Based-Door-Lock-Using-8051-Microcontroller</b></a
+                    >
+                    <div class="project-img">
+                      <img
+                        class="project-img__img"
+                        src="./assets/img/project-2.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project__content">
+                <div class="project__time">
+                  <span class="project__rounder"></span>
+                  <!-- <span class="project__line"></span> -->
+                </div>
+
+                <div class="project__data bd-grid">
+                  <h3 class="project__title">Stock market predictor</h3>
+                  <span class="project__company"
+                    >CSE299 | <b>Junior Design</b></span
+                  >
+                  <p class="project__description">
+                    <b>Description:</b> Web Application to analyse Share Market datasets and reports.
+                    Recurrence Neural Networking architecture’s (e.g. LSTM (longshort term memory)) approach used to train the AI
+                  </p>
+                  <div class="project-review">
+                    <a
+                      class="project__link"
+                      href="https://github.com/Sayed-Noman/NSU-CSE299-Stock-Price-Predictor"
+                      onmouseover="hoverIn(getImage3)"
+                      onmouseout="hoverOut(getImage3)"
+                      ><b>Source: github.com/Sayed-Noman/NSU-CSE299-Stock-Price-Predictor</b></a
+                    >
+                    <div class="project-img">
+                      <img
+                        class="project-img__img"
+                        src="./assets/img/project-3.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="project__content">
+                            <div class="project__time">
+                                <span class="project__rounder"></span>
+                                <span class="project__line"></span>
+                            </div>
+
+                            <div class="project__data bd-grid">
+                                <h3 class="project__title">Hades Engine</h3>
+                                <span class="project__company">From 2018 to 2019 | <b>Front-End Developer</b></span>
+                                <p class="project__description">
+                                    <b>Description:</b> Built the user interface of the hades engine - the sales page
+                                    with high displacement
+                                    motorsport products
+                                </p>
+                                <div class="project-review">
+                                    <a class="project__link" href="https://ducati-stone.herokuapp.com/"
+                                        onmouseover="hoverIn(getImage4)" onmouseout="hoverOut(getImage4)"><b>Demo:</b>
+                                        ducati-stone.herokuapp.com</a>
+                                    <div class="project-img">
+                                        <img class="project-img__img" src="/assets/img/project-4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+            </div>
+          </section>
+
+          <!-- CERTIFICATES -->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                Mathematics for Machine Learning
+                </h3>
+                <p class="certificate__description">
+                  Linear Algebra <b>(Coursera, 2021)</b>
+                </p>
+              </div>
+
+              <div class="certificate__container bd-grid">
+                <div class="certificate__content">
+                  <h3 class="certificate__title">
+                    Web Development
+                  </h3>
+                  <p class="certificate__description">
+                    Web Development <b>(Udemy, 2021)</b>
+                  </p>
+                </div>
+
+                <div class="certificate__container bd-grid">
+                  <div class="certificate__content">
+                    <h3 class="certificate__title">
+                      Natural Language Processing, 
+                    </h3>
+                    <p class="certificate__description">
+                      Deploy on Cloud(AWS) <b>(Udemy, 2021)</b>
+                    </p>
+                  </div>
+  
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Python for Everybody
+                </h3>
+                <p class="certificate__description">
+                  Using python to access data, Capstone: Retrieving,
+                  Processing, and Visualizing Data with Python, Using Databases with Python,
+                  Python Data Structures. 
+                  <b>(Coursera, 2020)</b>
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Google IT support
+                </h3>
+                <p class="certificate__description">
+                  Technical Support Fundamentals, The Bits and Bytes of
+                  Computer Networking, Operating Systems and You: Becoming a Power User,
+                  System Administration and IT Infrastructure Services, IT Security: Defense
+                  against the digital dark arts.
+                  <b>(Coursera, 2022)</b>
+                </p>
+              </div>
+
+              <!-- <div class="certificate__content">
+                            <h3 class="certificate__title">Achievement medal for productivity excellence during the year
+                                (2019)</h3>
+                            <p class="certificate__description">For meeting the expectations of leading the team to work
+                                the specified tasks in the labor field.</p>
+                        </div> -->
+            </div>
+          </section>
+
+          <!-- REFERENCES -->
+          <!-- <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">St. Director</span>
+                            <h3 class="references__title">Mr. Clay Moe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>Email: user@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Mag. Developer</span>
+                            <h3 class="references__title">Mr. Rod</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>Email: user@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section> -->
+
+          <!-- LANGUAGES -->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <!-- <li class="languages__name">
+                                <span class="languages__circle"></span>
+                                Japanese
+                            </li> -->
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  English - Advanced High (C1)
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>
+                  Bangla - Distinguished (Native)
+
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- INTERESTS -->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name"> Music </span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name"> Travel </span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name"> Read </span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-swim interests__icon"></i>
+                <span class="interests__name"> Swimming </span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+    <!-- THREE.JS AND TWEENMAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!-- HTML2PDF.JS -->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
